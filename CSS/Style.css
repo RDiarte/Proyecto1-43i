@@ -1,0 +1,19 @@
+.bg-color {
+  background-color: #9c0cf5;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+nav {
+  font-family: "Bangers", cursive;
+  background-color: #9c0cf5;
+}
+
+.font-s {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.button-s {
+  background-color: #48285c;
+}
