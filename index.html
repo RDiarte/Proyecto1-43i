@@ -16,24 +16,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <!--<nav class=" navbar-dark bg-color">
-        <a href="#"><img
-            src="https://res.cloudinary.com/dhe7vivfw/image/upload/v1680215433/RollingCode/Icono%20Principal%20y%20Fondos/Film_u8t22l.png"
-            alt=""
-            width="60"
-            height="60"
-            class="d-inline-block align-text-center"
-          /><span class="font-s"> HOLLYWOW</span></a>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn btn-primary me" type="button">
-            Acerca de Nosotros
-          </button>
-          <button class="btn btn-primary" type="button">Suscripcion</button>
-          <button class="btn btn-primary" type="button">Contacto</button>
-          <button class="btn btn-primary" type="button">Login</button>
-        </div>
-      </div> </nav>-->
-    <nav class="navbar navbar-dark bg-color">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img
@@ -43,25 +26,42 @@
             width="60"
           /><span class="font-s"> HOLLYWOW</span>
         </a>
-        <form class="d-grid gap-2 col-6 ms-5 d-md-flex justify-content-lg-end">
-          <button class="button-s btn btn-dark" type="button">
-            Acerca de Nosotros
-          </button>
-          <button class="button-s btn btn-dark" type="button">
-            Suscripcion
-          </button>
-          <button class="button-s btn btn-dark" type="button">Contacto</button>
-          <button class="buttons btn btn-dark" type="button">
-            <a
-              class="nav-link active link-light"
-              aria-current="page"
-              href="Login/index.html"
-              >Login
-            </a>
-          </button>
-        </form>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <form class="d-grid gap-2 d-md-flex">
+            <button class="button-s btn btn-dark" type="button">
+              Acerca de Nosotros
+            </button>
+            <button class="button-s btn btn-dark" type="button">
+              Suscripcion
+            </button>
+            <button class="button-s btn btn-dark" type="button">
+              Contacto
+            </button>
+            <button class="button-s btn btn-dark" type="button">
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="Login/index.html"
+                >Login
+              </a>
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
+
     <!--Optional JavaScript; choose one of the two!-->
 
     <!--Option 1: Bootstrap Bundle with Popper-->
